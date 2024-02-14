@@ -35,4 +35,9 @@ $(document).ready(function () {
         $(".first-step").addClass("d-none");
         $(".two-step").removeClass("d-none");
     });
+
+    $(".heart-2").on('click' , function (e) {
+        e.preventDefault();
+        window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    });
 });
